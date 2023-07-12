@@ -1,0 +1,7 @@
+python detect_or_track.py --weights best.pt --no-trace --view-img --nosave --source sample.mp4 --show-fps --seed 2 --track 
+python detect_or_track.py --weights best.pt --no-trace --view-img --nosave --source sample.mp4 --show-fps --seed 2 --track --nobbox
+python detect_or_track.py --weights best.pt --no-trace --view-img --nosave --source sample.mp4 --show-fps --seed 2 --track --show-track
+python detect_or_track.py --weights best.pt --no-trace --view-img --nosave --source sample.mp4 --show-fps --seed 2 --track --nobbox --nolabel --thickness 3
+
+this will make the output windows size to 720*1080
+python Track_output_View720.py --weights best.pt --no-trace --view-img --nosave --source sample.mp4 --show-fps --seed 2 --track 
