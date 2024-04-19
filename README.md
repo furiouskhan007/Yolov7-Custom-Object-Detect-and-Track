@@ -1,5 +1,7 @@
 # Yolov7-Custom-Object-Detect-and-Track
 # Must train model for custom object
+# Python Compatibility 
+* Python 3.10.4
 ## Dependencies
 * pip install -r requirements.txt
 
